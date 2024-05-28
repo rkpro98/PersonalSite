@@ -1,0 +1,28 @@
+footer{
+    text-align: center;
+    font-size: 14px;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url(https://as2.ftcdn.net/v2/jpg/01/98/49/61/1000_F_198496190_TRgMtAnmx20H51DgZdCX5zgphwXynuQ7.jpg);
+    
+    
+}
+
+h1{
+    text-align: center;
+}
+
+hr{
+    background-color: brown;
+    border-color: brown;
+    height: 2px;
+}
+
+.menu{
+    width: 80%;
+    background-color: burlywood;
+    margin-left: auto;
+    margin-right: auto;
+}
