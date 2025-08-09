@@ -586,6 +586,42 @@ section {
 }
 
 /* Animations */
+/* Video Section */
+.video {
+    background: #ffffff;
+}
+
+.video-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.video-frame {
+    position: relative;
+    width: 100%;
+    max-width: 960px;
+    border-radius: 16px; /* rounded outer frame */
+    border: 2px solid #7c5ce6; /* thin minimal border */
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08); /* lighter shadow */
+    background: #ffffff; /* clean inner gap */
+    padding: 8px; /* small gap between border and video */
+}
+
+.video-frame iframe {
+    display: block;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    border: 0;
+    border-radius: 0; /* keep controls unclipped */
+    background: #000;
+}
+
+@media (max-width: 768px) {
+    .video-frame {
+        padding: 6px; /* maintain small gap on mobile */
+        border-radius: 12px;
+    }
+}
 @keyframes fadeInUp {
     from {
         opacity: 0;
